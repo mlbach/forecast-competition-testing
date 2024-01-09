@@ -27,5 +27,5 @@ jobs:
 
     - name: Compare Folder Contents
       run: |
-        python -c "import glob; folder = 'submissions/*.csv'; result1 = glob.glob(folder); result2 = sorted(glob.glob(folder)); print(result1); print(result2); print(result1 == result2)"
+        python -c "import glob; folder = 'results/*.csv'; result1 = glob.glob(folder); result2 = sorted(glob.glob(folder)); print(result1); print(result2); print(result1 == result2)"
 
